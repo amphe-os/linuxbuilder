@@ -64,7 +64,7 @@ jobs:
         sudo rpm2cpio kernel-ml-$elrepo_c7_ver-1.el7.elrepo.x86_64.rpm | cpio -divm
         cd /workdir/boot
         # elrepo_patch=/home/runner/work/kernel/kernel/elrepo_config.patch
-        config=/home/runner/work/Linux_kernel_pre_built/Linux_kernel_pre_built/Build_config
+        config=/home/runner/work/linuxbuilder/linuxbuilder/Build_config
         # sudo patch -p1 < ${elrepo_patch} config-*-1.el7.elrepo.x86_64
         sudo rm -rf ${config}
         sudo mv config-*-1.el7.elrepo.x86_64 ${config}
