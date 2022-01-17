@@ -1,5 +1,5 @@
 
-name: Linux Kernel Latest
+name: Force Linux Kernel Latest
 
 on:
   workflow_dispatch:
