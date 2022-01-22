@@ -36,7 +36,6 @@ jobs:
     - name: Get source code
       id: code
       working-directory: /workdir
-      if: steps.check.outputs.status == 'success'
       run: |
         df -hT $PWD
         kernel_file=$(curl -s https://www.kernel.org/ | grep "torvalds" | head -n 1 | awk -F '"' '{print$2}')
