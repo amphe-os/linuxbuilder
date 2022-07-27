@@ -1,2 +1,2 @@
 # linuxbuilder
-Vanilla kernel builder for AmpheOs
+Vanilla kernel builder for AmpheOS
